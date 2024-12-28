@@ -1,0 +1,36 @@
+/*
+Theme Name: Franc Designs
+Theme URI: https://getwebwiz.org.in/
+Author: Jomon Thomas Lobo
+Author URI: https://getwebwiz.org.in/
+Description: A custom WordPress theme by Jomon Thomas Lobo.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: francdesigns
+Tags: custom-theme, responsive, blog, e-commerce
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+.custom-menu-class{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu-item{
+    list-style: none;
+    margin: 0 10px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
